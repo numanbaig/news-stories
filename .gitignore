@@ -1,0 +1,17 @@
+# Ignore Node.js modules installed by npm or yarn
+node_modules
+
+# Ignore build artifacts and compiled code
+build/
+dist/
+*.log
+
+# Ignore environment-specific files
+.env
+
+*.swp
+.DS_Store
+
+# Ignore package-lock.json or yarn.lock if you use npm or yarn
+package-lock.json
+yarn.lock
